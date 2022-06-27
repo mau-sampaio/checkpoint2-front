@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tudo Sobre Filmes | JGMovies</title>
+    <title>No Ritmo do Coração | JGMovies</title> <!-- COLOCAR A FOTO DO FILME -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/base.css">
@@ -15,92 +15,57 @@
 
 <body>
     <nav class="menuflu d-lg-none">
-        <a href="#"> <img src="img/home.svg" alt="Home"></a>
-        <a href="#top-6"> <img src="img/series.svg" alt="lista de filmes"></a>
+        <a href="index.html"> <img src="img/home.svg" alt="Home"></a>
+        <a href="index.html#top-6"> <img src="img/series.svg" alt="lista de filmes"></a>
         <a href="#equipe"> <img src="img/info.svg" alt="Equipe"></a>
         <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="img/user.svg" alt="Login"></a>
     </nav>
-    <div class="banner banner-home">
+    <!-- MUDAR -->
+    <div class="banner">
+        <img src="img/filme01.png" class="d-lg-none" alt="CODA">   <!-- COLOCAR A FOTO DO FILME -->
+        <img src="img/filme01-fundo.jpg" class="d-none d-lg-block" alt="CODA"> <!-- COLOCAR A FOTO DO FILME -->
         <header class="container-fluid">
             <div class="container">
                 <img src="img/jgmovies.svg" alt="Logo JGMovies">
                 <nav class="menudesk d-none d-lg-block">
-                    <a href="#"> Home</a>
-                    <a href="#top-6">Itens</a>
+                    <a href="index.html"> Home</a>
+                    <a href="index.html#top-6">Itens</a>
                     <a href="#equipe"> Sobre Nós</a>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</a>
                 </nav>
             </div>
         </header>
-        <div class="conteudo-main">
+        <div class="conteudo-main detalhes-filme">
             <div class="container">
-                <h1>Tudo Sobre <span>filmes!</span></h1>
-                <a href="#top-6" class="botao">
-                    <img src="img/info.png" alt="informacao">
-                    EXPLORE JÁ
-                </a>
-            </div>
-        </div>
-    </div>
-    <section class="container" id="top-6">
-        <span class="subtitulo">
-            TOP 06
-        </span>
-        <h2>Melhores <span>Filmes</span></h2>
-        <div class="scroll">
-            <div class="cards">
-                <a href="coda.html"> <img src="img/filme01.png" alt="No Ritmo do Coração (CODA)">
+
+<!-- MUDAR OS DETALHES DO FILME -->
+                <div class="d-flex titulo-filme">
+                    <img src="img/filme01.png" class="capa-filme d-none d-lg-block" alt="CODA">
                     <div>
-                        <h3>No Ritmo do Coração</h3>
+                        <div class="d-flex align-items-center">
+                            <a href="#" class="play" data-bs-toggle="modal" data-bs-target="#filmes">
+                                <img src="img/play.png" alt="play trailer">
+                                ASSISTIR TRAILER</a>
+                        </div>
+                        <img src="img/linha.png" class="img-fluid my-2" alt="linha divisao">
+                        <h1>No Ritmo do Coração</h1>
                         <p>2021 • 1h 51m</p>
                         <p>Drama/Musical</p>
                     </div>
-                </a>
-                <a href="#"> <img src="img/filme02.png" alt="Belfast">
-                    <div>
-                        <h3>Belfast</h3>
-                        <p>2021 • 1h 38m</p>
-                        <p>Drama/Comédia dramática </p>
-                    </div>
-                </a>
-                <a href="#"> <img src="img/filme03.png" alt="Belfast">
-                    <div>
-                        <h3>King Richard: Criando Campeãs</h3>
-                        <p>2021 • 2h 25m</p>
-                        <p>Drama/Esporte</p>
-                    </div>
-                </a>
-                <a href="#"> <img src="img/filme04.png" alt="O Beco do Pesadelo">
-                    <div>
-                        <h3>O Beco do Pesadelo</h3>
-                        <p>2021 • 2h 30m</p>
-                        <p>Suspense/Drama</p>
-                    </div>
-                </a>
-                <a href="#"> <img src="img/filme05.png" alt="Duna">
-                    <div>
-                        <h3>Duna</h3>
-                        <p>2021 • 2h 35m</p>
-                        <p>Ficção científica/Aventura </p>
-                    </div>
-                </a>
-                <a href="#"> <img src="img/filme06.png" alt="007 - Sem Tempo para Morrer">
-                    <div>
-                        <h3>007 - Sem Tempo para Morrer</h3>
-                        <p>2021 • 2h 3m</p>
-                        <p>Ação/espionagem</p>
-                    </div>
-                </a>
+                </div>
+
             </div>
         </div>
+    </div>
+    <section class="container sinopse">
+        <h2>Sinopse:</h2>
+        <p>Ruby (Emilia Jones) é a única pessoa que escuta em uma família com deficiência auditiva. A vida da jovem
+            sempre foi ajudar o irmão e os pais nas tarefas do dia e no negócio de pesca da família, mas logo ela se
+            envolve no coral da escola e se vê dividida entre seguir seu sonho na música ou ajudar a família. </p>
     </section>
-    <section class="container patrocinio">
-        <h3><span class="subtitulo">PATROCINADO</span></h3>
-        <iframe src="https://www.youtube-nocookie.com/embed/QHhU97C9L7E?controls=0" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </section>
+
+<!-- MUDAR OS DETALHES DO FILME -->
+
     <section class="container equipe" id="equipe">
         <span class="subtitulo">equipe</span>
         <img src="img/jgmovies.svg" alt="JGMovies">
@@ -136,8 +101,25 @@
         Checkpoint 2 - Junho/2022
     </footer>
 
+    <!-- Modal 2 -->
+    <div class="modal fade filme" id="filmes" data-bs-backdrop="static" data-bs-keyboard="false"
+        aria-labelledby="filmesLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"> <!-- MUDAR OS DETALHES DO FILME -->
+                    <iframe src="https://www.youtube.com/embed/vVU2ixNLOt8" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -149,19 +131,19 @@
                     <form action="">
                         <div class="mb-3">
                             <label for="email" class="form-label">E-mail</label>
-                            <input type="email" class="form-control" id="email"
-                        </div>
-                        <div class="mb-3 mt-2">
-                            <label for="senha" class="form-label">Senha</label>
-                            <input type="password" class="form-control" id="senha"
-                        </div>
-                        <button type="submit" class="btn btn-danger w-100 mt-3">Entrar</button>
-                        
+                            <input type="email" class="form-control" id="email" </div>
+                            <div class="mb-3 mt-2">
+                                <label for="senha" class="form-label">Senha</label>
+                                <input type="password" class="form-control" id="senha" </div>
+                                <button type="submit" class="btn btn-danger w-100 mt-3">Entrar</button>
+                            </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
