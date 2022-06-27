@@ -70,6 +70,7 @@ header img {
 .conteudo-main {
     color: var(--text-color);
     padding: 30px;
+    padding-bottom: 50px;
 }
 
 h1 {
