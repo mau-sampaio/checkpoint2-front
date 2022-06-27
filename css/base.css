@@ -130,7 +130,7 @@ h2 {
     background: var(--bg-nav);
     backdrop-filter: blur(20px);
     border-radius: 4px 4px 0px 0px;
-    z-index: 5;
+    z-index: 10;
 }
 
 .menuflu a {
