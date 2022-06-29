@@ -156,6 +156,24 @@ footer.container {
     color: var(--bg-color);
 }
 
+@keyframes pipoca {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+    
+    75% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 @media (min-width: 992px) {
     .banner {
         height: 100vh;
@@ -201,4 +219,18 @@ footer.container {
     footer.container {
         padding-bottom: 80px;
     }
+
+    .botao-pipoca {
+        position: fixed;
+        bottom: 30px;
+        right: 45px;
+        z-index: 20;
+        transform-origin: bottom center;
+        animation: pipoca 1.2s linear infinite;
+    }
+    
+    .botao-pipoca img {
+        height: 50px;
+    }
+    
 }

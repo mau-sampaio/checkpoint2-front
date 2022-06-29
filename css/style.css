@@ -1,3 +1,20 @@
+.fundo-modal-home .modal-content {
+    background-image: url(../img/fundo-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: var(--text-color);
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.fundo-modal-home .modal-content h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, 265px);
@@ -99,6 +116,12 @@
     font-weight: bold;
 }
 
+.cads-perfil img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
 .play {
     display: block;
     margin: auto;
@@ -136,6 +159,7 @@
     width: 100%;
     aspect-ratio: 16 / 9;
 }
+
 
 @media (min-width: 992px) {
     .cards {

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 
 <body>
@@ -87,7 +88,7 @@
                 <a href="007-sem-tempo.html"> <img src="img/filme06.png" alt="007 - Sem Tempo para Morrer">
                     <div>
                         <h3>007 - Sem Tempo para Morrer</h3>
-                        <p>2021 • 2h 3m</p>
+                        <p>2021 • 2h 43m</p>
                         <p>Ação/espionagem</p>
                     </div>
                 </a>
@@ -121,11 +122,11 @@
                     <p>Trainee FrontEnd</p>
                 </div>
             </a>
-            <a href="#">
-                <img src="img/mauricio.png" alt="Mauricio Sampaio">
+            <a href="https://github.com/Jhony00224">
+                <img src="img/jhony.jpeg" alt="Jhony Joaquim">
                 <div>
-                    <h4>Maurício Sampaio</h4>
-                    <p class="username">mau-sampaio</p>
+                    <h4>Jhony Joaquim</h4>
+                    <p class="username">Jhony00224</p>
                     <p>Trainee FrontEnd</p>
                 </div>
             </a>
@@ -149,19 +150,46 @@
                     <form action="">
                         <div class="mb-3">
                             <label for="email" class="form-label">E-mail</label>
-                            <input type="email" class="form-control" id="email"
+                            <input type="email" class="form-control" id="email" </div>
+                            <div class="mb-3 mt-2">
+                                <label for="senha" class="form-label">Senha</label>
+                                <input type="password" class="form-control" id="senha" </div>
+                                <button type="submit" class="btn btn-danger w-100 mt-3">Entrar</button>
+                            </div>
                         </div>
-                        <div class="mb-3 mt-2">
-                            <label for="senha" class="form-label">Senha</label>
-                            <input type="password" class="form-control" id="senha"
-                        </div>
-                        <button type="submit" class="btn btn-danger w-100 mt-3">Entrar</button>
-                        
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Modal Home -->
+    <div class="modal fade fundo-modal-home" id="modal-home" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="modal-homeLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center tela-fundo">
+                    <img src="img/logo-home.svg" class="w-50 mb-5 mx-auto d-block" alt="">
+                    <div class="d-flex justify-content-center">
+                        <h2>Checkpoint 2</h2>
+                    </div>
+                    <h3> Prof. Enrique Marques Jr.</h3>
+                    <p>EQUIPE 07 - FrontEnd</p>
+                    <ul class="list-unstyled">
+                        <li>Jhony Joaquim</li>
+                        <li>Gustavo Vinicius</li>
+                        <li>Maurício Sampaio</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-home" class="botao-pipoca"><img src="img/pipoca.png" alt="JGMovies"></a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
